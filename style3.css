@@ -1,0 +1,73 @@
+*
+{
+   margin: 0;
+   padding: 0;
+}
+body
+{
+   background-image: url(TAJ-PALACE-NEW-DELHI.jpeg);
+   background-repeat: no-repeat;
+   background-size: 100% 900px;
+}
+h1
+{
+   color: white;
+   text-align: center;
+   font-style: italic; 
+}
+h2
+{
+   color: white;
+   text-align: center;
+   font-style: italic;
+}
+label
+{
+    color: white;
+   font-size: 20px;
+   font-style: italic;
+}
+#ma
+{
+   color: white;
+   font-size: 20px;
+   font-style: italic;
+}
+#ch
+{
+   color: white;
+   font-size: 20px;
+   font-style: italic;
+}
+.reg
+{
+   width:30%;
+   margin: auto;
+   background-color:rgb(0,0,0,0.4);
+   padding:10px;
+}
+#reg
+{
+   width:80%;
+   margin: auto;
+}
+#name
+{
+   width: 300px;
+   outline: 0;
+   padding: 5px;
+   border: 3px solid #9fabb6;
+   border-radius: 3px;
+}
+#sub
+{
+   width: 300px;
+   outline: 0;
+   padding: 5px;
+   border: 3px solid #9fabb6;
+   color: white;
+   font-size: 18px;
+   font-style:italic;
+   background-color: #487948;
+   border-radius: 3px;
+}

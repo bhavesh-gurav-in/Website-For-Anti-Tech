@@ -1,0 +1,186 @@
+*
+{
+  padding :0;
+  margin :0;
+  box-sizing:border-box;
+}
+body
+{
+
+  background-size:cover;
+  background-position:center;
+  box-sizing:border-box;
+  font-family:sans-serif;
+}
+/*Menu bar css code*/
+.menu-bar
+{
+  background:rgb(0,100,0);
+  text-align:center;
+}
+.menu-bar ul
+{
+  display:inline-flex;
+  list-style:none;
+  color:#fff;
+}
+.menu-bar ul li
+{
+  width:120px;
+  margin:15px;
+  padding:15px;
+}
+.menu-bar ul li a
+{
+  text-decoration:none;
+  color:#fff;
+}
+.active, .menu-bar ul li:hover
+{
+   background:#2bab0d;
+   boder-radius:3px;
+}
+.menu-bar .fa
+{
+  margin-right:8px;
+}
+.sub-menu-1
+{
+   display:none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+    display:block;
+    position:absolute;
+    background:rgb(0,100,0);
+    margin-top:15px;
+   margin-left:-15px;
+} 
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display:block;
+    margin:10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+   width:150px;
+   padding:10px;
+   border-bottom:1px dotted #fff;
+   background: transparent;
+   border-radius:0;
+   text-align:left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last child
+{
+   border-bottom:none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+   color:#b2ff00;
+}
+.fa-angle-right
+{
+   float:right;
+}
+.sub-menu-2
+{
+    display:none;
+}
+.hover-me:hover .sub-menu-2
+{
+   position:absolute;
+   display:block;
+   margin-top:-40px;
+   margin-left:140px;
+   background:rgb(0,100,0);
+}
+/*End Menu bar css code==========================================================*/
+
+/*Next Section===================================================================*/
+nav {
+    height: 50px;
+    background-color: black;
+    width: 100%;
+    line-height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    padding-left: 70%;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;  
+} 
+
+section > nav {
+    height: 50px;
+    background-color: white;
+    width: 100%;
+    line-height: 50px;
+}
+section nav ul h2{
+    color: black;
+    height: 20px;
+    padding-left: 0%;
+    width: 100%;
+    line-height: 20px;
+
+}
+
+section nav ul {
+    list-style: none;
+    padding-left: 20%;
+    display: flex;
+}
+
+#con1 h2 {
+    padding-left: 40%;
+    border: 3px solid green;
+}
+
+#con2 {
+    
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-flow: wrap-reverse;
+}
+
+#con2 section {
+    margin: 30px;
+    text-align:  center;
+}
+/*===========================================================*/
+/*paragraph side=========================================*/
+
+#con3 h3 {
+	
+	border: 3px solid Red;
+	box-sizing: border-box;
+}
+
+/*=======================================*/
+#con5 section {
+    display: flex;
+    background-color: black;
+}
+
+#con5 section ul {
+    margin: 50px;
+}
+
+#con5 section ul h3 {
+    color: blanchedalmond;
+}
+
+#con5 .for {
+    color: blanchedalmond;
+    font-size: 20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
