@@ -1,0 +1,9 @@
+1. Download zip from github
+2. Extract complete file
+3. put this file inside wampp/www/ paste here
+4. then open your wampp server
+5. open myphpadmin.
+6. first create one database name of 'company'
+7. then go to import section and browse database from file.
+8. In file database=> company.sql select this and open it
+9. then go to server and run the program.
